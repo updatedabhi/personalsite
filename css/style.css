@@ -1,0 +1,123 @@
+body{
+    color: #40514e;
+    margin: 0px;
+    text-align: center;
+    line-height: 2;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    /* since 100% = 16pixel = 1em/rem so 90pixel/16 = 562.5% */
+    /* font-size: 562.56%; */
+    font-size: 4.625rem;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    color: #66BFBF;
+    line-height: 2;
+}
+h2{
+    color: #66BFBF;
+    padding-bottom: 10px;
+}   
+h3{
+    color: #11999E;
+}
+hr{
+    border: 6px dotted #6ef6f6;
+    border-bottom: none;
+    width: 3%;
+    margin: 100px auto;
+}
+.paragraph-font{
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+}
+.contact-message{
+    width: 35%;   
+    margin: 40px auto 60px auto;
+}
+.top-container{
+    background-color: #e7fafa;
+    position: relative;
+    padding-top: 100px;
+}
+.middle-container{
+    margin: 100px 0;
+}
+.stu{
+    text-decoration: underline;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.code-img{
+    width: 25%;
+    float: left;
+    margin-right: 20px;
+}
+.cook-img{
+    width: 25%;
+    float: right;
+    margin-left: 10px;
+}
+/* .skill-paragraph-description{
+    clear: left;
+}
+.cook-paragraph-description{
+    clear: right;
+} */
+.btn{
+    border: 1px solid #337FED;
+    background: #3D94F6;
+    color: #FFFFFF;
+    border-radius: 8px;
+    font-size: 19px;
+    font-weight: 100;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+}
+.btn:hover{
+    border: solid #337FED 1px;
+    background: #1E62D0;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.bottom-container{
+    background-color: #66bfbf;
+    padding-top: 50px;
+    padding-left: 0px;
+    padding-bottom: 20px;
+}
+a{
+    color: #11999E;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: #eaf6f6;
+}
+.copy-right{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
